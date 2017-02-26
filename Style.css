@@ -8,7 +8,7 @@ body {
 	
 	/*background used for the first section of the page with size and no repeats of the image.*/
 	background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg")
-	; background-size:  1900px; background-repeat: no-repeat; 
+	; background-size: 100% 1100px; background-repeat: no-repeat; 
 
 	
 }
@@ -107,7 +107,7 @@ a {margin: 23px;}
  
 h6 { padding: 390px; margin: -19px; font-size: 30px; font-family: sans-serif; }
 .back { background-image: url("http://static1.squarespace.com/static/54e63432e4b02904f4c632e8/t/54ef890ce4b0a7de0912942d/1424984343312/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg?format=2500w");
-background-size:  3110px; background-repeat: no-repeat;  }
+background-size: 3110px; background-repeat: no-repeat;  }
 footer p { font-size: 20px }
 @media (min-width: 600px) {}
 .fafa-twitterfa-2x {text-align: center;}
