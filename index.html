@@ -1,99 +1,143 @@
 
 <html land="en-gb">
      <head>
+          <!-First stylesheet used so that I can create grids and columns which I have used on the first page of my website. I linked the stylesheet by using #href to link to an external stylesheet. The second stylesheet is used so that I could add icons whcih are above the 3 columns which i used the (i) to read the code in the style sheet inorder to retreive the icons that I've created as a finish touch->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <!-Title used as the name of the document->
           <title> Adam Tadele</title>
-
+          <!-Code below is used to link the .css stylesheet which includes the main design of my website->
           <link rel="stylesheet" href="Style.css">
+    <!-The head contains all the information about the header which is used via the Web browser->
     </head>
+    <!-The body is what the user would see in the front end->
     <body>
     <header>
-       <div align="center"><h1><a href="#">Hello World</a></h1></div>
-       		<nav>
+       <nav><!-nav used so it can send users to particular sections of the web page->
        			<ul>
         			<li>
-           				<a href="#About">About me</a>
+           				<!-ul used to unlist the list I have created. Below href used to refer to the bootstrap stylesheet->
+                  <a href="#About me">About me</a>
            			</li>
              
            	<li>
             	<a href="#Work">Work</a> 
             </li>
-           
+
            			<li> 
-             		<a href="#Contract">Contact</a>
+             		<a href="#Contact">Contact</a>
             		 </li>
             	</ul>
             </nav>
+  <!-nav used so that userscan navigate to the irght section of the page->      
+       <div align="center"><h1><a href="#">Portofolio</a></h1></div>
+       		
+       	<!-h1,h2,h3,4 e.c.t used to refer to different headings->	
        <h2>Student</h2>
-       <h3>HTML, C#, JavaScript</h3>
+       <h3>HTML, C# and JavaScript</h3>
        </header> 
-      <section id="About" class="section"> 
+     
+      <!-img used to refer to an image saved in the same laction as te .html, and .css stylesheet->
+      <img src="Assingdone.png" alt="Image of a man" height="400px" width"200px"> 
       
-      <img src="cute-cat.png" alt="Image of a man" height="200px" width"200"> 
-      </section>
-      <section id="Work">
+        <div
            <div class="container">
            		<div class="row">
             		<div class="col-xs-4 col-xs-offset-4"> 
                  	
             			<ul class="section-list">
-            				
-            				<li><i class="fa fa-camera-retro"></i>Camera</li>
-             				<li><i class="fa fa-bath"></i>Bath</li>
-               				<li><i class="fa fa-address-book"></i>Address Book</li>
+            				<!-used to put the text below in the center to make it easier for users to read->
+            				<li>Captured by phone</li>
+             				
              		    </ul>
              		</div>
              	</div>
             </div>
        </section>
-       
-       <div class="container">
+       <!-div used to refer to the first column out of the other two so that I can refer to then individually instead of the other two columns in css.->
+       <div class="container colpara">
              <div class="row">
-             <div class= "col-xs-4">Pseudo classes according to their specification from W3C were introduced to allow of selection of elements based on information that is outside of the HTML document, for example when a user hovers over an element.
-             </div><div class= "col-xs-4">Pseudo classes according to their specification from W3C were introduced to allow of selection of elements based on information that is outside of the HTML document, for example when a user hovers over an element.
-             </div><div class= "col-xs-4">Pseudo classes according to their specification from W3C were introduced to allow of selection of elements based on information that is outside of the HTML document, for example when a user hovers over an element.
+             <div class= "col-xs-4">
+             <i class="fa fa-camera-retro"></i>
+             <p>I've added images which I've captured.</p>
+             <!-p is paragraph and can be referred in css as p {}. This is the same as all the divs I used as a backgorund in html so that it can be easily edited in .css.->
+             </div>
+             <!- (i) used to refer to a stylesheet which has a different phrase or language in a stylesheet. In this case it is the icons used above each column.->
+             <div class= "col-xs-4">
+             <i class="fa fa-bath"></i>
+             <p>This website has a clean design.</p>
+             </div>
+             <div class= "col-xs-4">
+             <i class="fa fa-address-book"></i><p>Any enquiries do not hesitate.</p>
              </div></div></div>
              <div class="back"> 
-             
-             	<h4> About me </h4>
-              		<p>Mauris quis lacus quis mi maximus faucibus a luctus tellus. Aenean finibus urna sit amet augue dapibus, at feugiat neque varius. Vestibulum efficitur nisi a est efficitur, non iaculis est ultrices. Mauris molestie ligula vel ante placerat posuere. Praesent eu ligula blandit, sagittis leo nec, dictum erat. Proin ac libero ut felis porta bibendum. Pellentesque at mollis tortor. Maecenas aliquet non elit nec cursus. Integer a dictum nisl. Cras interdum nisl at tincidunt viverra. Nullam fermentum tempor egestas. Donec sollicitudin volutpat purus sed pellentesque.</p>
-      		 			<form method="get" action="cute-cat.jpg">
-             		<button name="Download CV button">Download CV</button>
+             <section ="About me" class="section"> 
+             	<!-Section used so that the Abot me (href) link can go to this section->
+              <h4> About me </h4>
+             	 <img src="Adamface.png" alt="Image of a man" height="400px" width"200px">
+              		<p>Hi there, I am a young student currently learning I.T in the U.K. </p>
+      		 			<form method="get" action="cute-cat.docx">
+             		<button name="Download CV button">Download CV</button> <!-Button whcih creates a button. Referred in .css and button {} so that I can change the size and colour of the button (which I have)->
+             	</section>
              	</form>
+      		
+           <section id="Work">
+
+          <!-div below used to add a background for this particaul section of the page. This is referred in .css by .class name (.wo), and the size of the background and e.c.t can be ammended.->
+           <div class="wo"->
+           <div class="work">Work</div>
+           <img src="image.png" alt="Image of a man" height="200px" width"180px">
+           <div class="imagedes">What I've used to create and edit the image above was a graphical image software called Adobe Photoshop. Adobe Photoshop is Bitmap graphical softwares which can be used to create or edit images. I recommend to use Adobe Photoshop due to the variety of tools available to edit/create images. However, the negative aspect of Photoshop is that it requires users to pay (unlike pixlr) and can be hard for beginners to learn on how to use the software. I created this image by creating an image of a horse by using a pencil. I then used the PolygonalLasso Tool to create the Poly effect and made each triangle on the background have its own colour creating a black/purple/green and blue effect. I created a star which I then copied and pasted two times and grouped them.The file format I used for this picture is a .png. I used this format as the resolution of the image is higher conpared to a .jpeg format which I could of chosen and the .png format stores a high image quality compared to most Bitmap formats.The image resolution is 243x215px causing the image quality to be low and this causes the image to take up less disk storage. The Lossless compression was used for this file format, which is an advantage because the image quality hasn't decreased. Also the image depth is 32 bit causing the file size to be large (taking up more disk space) however, this causes the image quality to be high and a variety of colours to be displayed. However as the image resolution is low and the poly affect of the image reduces the file size this generally means the image quality doesn't take up a lot of memory of 72kb. The Copyright law determines how the material created by the owner can be used and users can identify the owner by looking at the contact details of where the image was originated. For other users to be able to use the owners material, they will need to contact the owner and grant permission. This prcess is done because the creater of an iage would of taken time and money to create an image/material and would need asked for this matter. Copyright free allows users to use the material without asking the owner and can be found where stated. </div>
+           <img src="Adamface.png" alt="Image of a man" height="400px" width"200px">
+           <div class="Adamdesc">What I've used to edit the image above was a website called Pixlr. Pixlr is a photo editors website with features and tools available similar to Bitmap graphical softwares. I recommend to use Pixlr due to the tools available to edit/create images with no payments required. However, the negative aspect of Pixlr, is even though it has many features, compared to graphical softwares such as Adobe Photoshop and Adobe Anime, it lakcs with some features which are available in Photoshop and some many features on Photoshop are not in Pixelr due to Pixelr being a free photo editor. The tools I used in Pixlr to edit the image above was the crop tool (grouped then cutted the ungrouped area of the image), erase tool, colour picker tool. I captured the image by using the Camera on my mobile phone. I then used a USB which was connected to my phone to a P.C which I then copied and pasted the image to the P.C. The file format I used for this picture is a .png. I used this format as the resolution of the image is higher conpared to a .jpeg format which I could of chosen and the .png format stores a high image quality compared to most Bitmap formats.The image resolution is 1944x2855px causing the image quality to be high however, this causes the image to take up more disk storage. The Lossless compression was used for this file format, which is an advantage because the image quality hasn't decreased. Also the image depth is 32 bit causing the file size to be large (taking up more disk space) however, this causes the image quality to be high and a variety of colours to be displayed. The Copyright law determines how the material created by the owner can be used and users can identify the owner by looking at the contact details of where the image was originated. For other users to be able to use the owners material, they will need to contact the owner and grant permission. This prcess is done because the creater of an iage would of taken time and money to create an image/material and would need asked for this matter. Copyright free allows users to use the material without asking the owner and can be found where stated.  </div>
+           <img src="Assingdone.png" alt="Image of a man" height="400px" width"200px">
+           <div class="facedesc">What I've used to edit the image which I took at work is a photo editing website called Pixlr. I took a picture from a mobile phoen which had a digital camera on it. I then connected the mobile phone to a P.C va a USB cable and copied and pasted the image to the P.C. The tools I used in Pixlr to edit the image above was the crop tool (grouped then cutted the ungrouped area of the image), erase tool, colour picker tool. The file format I used for this picture is a .png. I used this format as the resolution of the image is higher conpared to a .jpeg format which I could of chosen and the .png format stores a high image quality compared to most Bitmap formats.The image resolution is 663x961px causing the image quality to be mediuam regae however, this causes the image to take up more disk storage. The Lossless compression was used for this file format, which is an advantage because the image quality hasn't decreased. Also the image depth is 32 bit causing the file size to be large (taking up more disk space) however, this causes the image quality to be high and a variety of colours to be displayed. The Copyright law determines how the material created by the owner can be used and users can identify the owner by looking at the contact details of where the image was originated. For other users to be able to use the owners material, they will need to contact the owner and grant permission. This prcess is done because the creater of an iage would of taken time and money to create an image/material and would need asked for this matter. Copyright free allows users to use the material without asking the owner and can be found where stated. </div>
+           </div></section>
+            
+           
       		 
-      		 </div>
              
              
             
-             <section id="about" class="section">
-             
-             
-
+             <section id="about" class="section"></section>
+             <!-div below used as a background, like previously mentioned above. This is referred in .css stylesheet ans .(classname) .bac. In .css sytlesheet which I've linked to change background size and e.c.t.->
+             </div>
+         <div class="bac">
         <section id="Contact">
-       	<h6>Contact</h6>
-       	<form action=https://formspree.io/your@email.com"
-       	method="POST">
-       	 <input type="text" name="name">
-       	 <input type="email name="_replyto">
-       	 <input type="submit" value="Send"
-       	 </form>
-       </section>  
-       <p>This is my first website</p>
+       	
+       	
+       <h6>Contact</h6>	
+			<!--p1 needs to be changed (vise v) to a div so that the footer can become smaller-->
+      <!-form used to connect to a server where data is normally added (int hte contact information section).->
+			</form>
+       	</section>  
+       <div class="info">To contact me please fill in below</div>
+       <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
        
-       <footer><p>Created and built by Adam Tadele - 2017 
-       <div align="center">
+       <footer>
+       <div class="last">Created and built by Adam Tadele - 2017 
+       <div align="center"></div></div>
        <a href="#"></a>
        <i class="fa fa-twitter fa-2x icon"></i>
        <a href="#">
        <i class="fa fa-linkedin fa-2x icon"></i>
        <a href="#">
-       <i class="fa fa-facebook fa-2x icon"></i></div>
+       <i class="fa fa-facebook fa-2x icon"></i>
        <a href="#"> 
       
-       <p>&copy; Copyright-2017</p><footer>
-     <footer>
-  <p>
-</footer>
-     </body>
+       <div class="last1">&copy; Copyright 2017</div>
+       </a>
+             </a></a></a></a></a></a></a></a>
+
+
+             
+      </footer>
+
+  </body>
+
   </html>
