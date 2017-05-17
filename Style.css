@@ -1,14 +1,43 @@
 
+#Homebutton {
+	text-align: right;
+	}
+#Lastheader{font-size: 30;}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr, td, th:nth-child(even) {
+    background-color: #E83849;
+}
 
 
+
+
+#imagescreated {text-align: center;}
+
+
+#fourthright {text-align: left;}
+#thirdright {text-align: left;}
+.secondclass { text-align: left; }
+.buttonclass{ text-align: left; }
 
 
 .colpara p {margin:0px; padding: 0px; border: 0;}
 body {
 	
 	/*background used for the first section of the page with size and no repeats of the image.*/
-	background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg")
-	; background-size: 100% 1100px; background-repeat: no-repeat; 
+	background-image: url(firsback.png); 
+	background-size: 100% 1490px; background-repeat: no-repeat; 
 
 	
 }
@@ -66,7 +95,7 @@ nav li { display: inline; }
 nav { text-align: right; }
 
 button {
-          background-color: grey; border-radius: 30px; width: 155px; font-size: 22px;
+          background-color: grey; border-radius: 23px; width: 105px; font-size: 18px;
            margin: 0px;
        }
        footer p {
@@ -105,14 +134,14 @@ a {margin: 23px;}
 .col-xs-4 div {margin: 24px;}
 
  
-h6 { padding: 390px; margin: -19px; font-size: 30px; font-family: sans-serif; }
-.back { background-image: url("http://static1.squarespace.com/static/54e63432e4b02904f4c632e8/t/54ef890ce4b0a7de0912942d/1424984343312/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg?format=2500w");
+h6 { padding: 390px; margin: 19px; font-size: 30px; font-family: sans-serif; }
+#back { background-image: url("http://static1.squarespace.com/static/54e63432e4b02904f4c632e8/t/54ef890ce4b0a7de0912942d/1424984343312/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg?format=2500w");
 background-size: 3110px; background-repeat: no-repeat;  }
 footer p { font-size: 20px }
 @media (min-width: 600px) {}
 .fafa-twitterfa-2x {text-align: center;}
 a {margin-top: 100px}
-.bac{ background-image: url("http://cyof.org/wp-content/uploads/2014/06/geometric_background_40.jpg");  background-repeat: no-repeat; background-size: 100% 1200px; background-repeat: no-repeat;}
+#bac{ background-image: url("http://cyof.org/wp-content/uploads/2014/06/geometric_background_40.jpg");  background-repeat: no-repeat; background-size: 100% 1200px; background-repeat: no-repeat;}
 .navigation { max-width: 740px;
 margin: auto; text-align:right; padding: 30px;}
 /* Padding used to create space and and margin used to create space aswell */
@@ -122,8 +151,8 @@ margin: auto; text-align:right; padding: 30px;}
 /* The section below was used for the Work section of the web page. As you can see in the .html stylesheet, the div was used and the class name has been referred below so that the div can be used as a image which can be edited in the css stylesheet or edited here as a text. */
  .First { padding: 390px; }
  .Work {font-size: 30px; font-family: sans-serif; color: white;}
- .wo { background-image: url("http://cyof.org/wp-content/uploads/2014/06/geometric_background_40.jpg");
-background-size:  100% 2800px; background-repeat: no-repeat;}
+ #wo { background-image: url("http://cyof.org/wp-content/uploads/2014/06/geometric_background_40.jpg");
+background-size:  100% 4800px; background-width: 400%; background-repeat: no-repeat;}
 
 .facedesc { margin:  15px; }
 
