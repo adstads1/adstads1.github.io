@@ -1,37 +1,42 @@
 
+
+/* Below is referred to a div id called Homebutton, which is button that takes users to the top web page. I've positioned the button to the right. */
 #Homebutton {
 	text-align: right;
 	}
+
+/* Below refers to a Header for the contacts section and I've increased the font size to 30. */
 #Lastheader{font-size: 30;}
 
+/* Below refers to the design of the table e.g changing font type, adding a border line and the size of the table*/
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-
+/* Below allows me to change colour of the border lines. I've also moved the texts to the left with a mninor padding*/
 td, th {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
-
+/* Below allows me to change the background colour of the table */
 tr, td, th:nth-child(even) {
     background-color: #E83849;
 }
 
 
-
+/* Below allows me to put the rollover in the middle of the first section of the web page */
 
 #imagescreated {text-align: center;}
 
-
+/* Fourthright, thirdright, secondclass and button class are all aligned onto the left handside of the page.*/
 #fourthright {text-align: left;}
 #thirdright {text-align: left;}
 .secondclass { text-align: left; }
 .buttonclass{ text-align: left; }
 
-
+/*For .colpara, I've made the three sentences to have no paddings, margins or borders.   */
 .colpara p {margin:0px; padding: 0px; border: 0;}
 body {
 	
@@ -69,6 +74,10 @@ ul li::before {
 	display: inline-block;
 	margin-right: 8px;
 	color: red;
+}
+
+.facedesc {
+	color:#97a0af;
 }
 
 ul {
@@ -112,6 +121,7 @@ footer {
 
 p { margin:0px;
     border:50px;
+    color: white;
 
 	}
 .section-list {
