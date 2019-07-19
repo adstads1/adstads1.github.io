@@ -1,6 +1,8 @@
-# First ever website!
----
-This was the first ever website that I've created in my life back in 2016. 
+# Portfolio Website
+
+This portfolio website replaces my first previous portfolio website created back in 2017.
+
+Click [here](adstads1.github.io) to be redirected to the live Portfolio Website. 
 
 The website is a very basic portfolio website with basic elements.
 
